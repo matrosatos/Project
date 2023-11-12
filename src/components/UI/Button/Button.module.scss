@@ -1,0 +1,71 @@
+.button {
+  //box-sizing: border-box;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+
+  svg {
+    width: 21px;
+    height: 21px;
+    margin-right: 10px;
+
+    * {
+      fill: var(--white);
+    }
+  }
+
+  &_primary {
+    min-width: 194px;
+    height: 48px;
+    padding: 12px 24px;
+    background-color: var(--bright-purple);
+  }
+
+  &_outlined {
+    border: 2px solid var(--bright-purple);
+    background: var(--white);
+    color: var(--bright-purple);
+    min-width: 194px;
+    height: 48px;
+    padding: 12px 24px;
+
+    svg {
+      width: 21px;
+      height: 21px;
+      margin-right: 10px;
+
+      * {
+        fill: var(--bright-purple);
+      }
+    }
+  }
+
+  &_small {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 16px 32px;
+  }
+
+  &_middle {
+    padding: 10px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+
+  &-clicked {
+    background-color: var(--light-gray);
+    color: var(--bright-purple);
+
+    svg * {
+      fill: var(--bright-purple);
+    }
+  }
+
+}

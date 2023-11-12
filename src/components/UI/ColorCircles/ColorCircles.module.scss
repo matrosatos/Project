@@ -1,0 +1,32 @@
+.colors {
+  display: flex;
+  justify-content: center;
+  //margin: 12px 0;
+
+  .color {
+    position: relative;
+    margin: 0 8px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &::before {
+      content: '';
+      display: none;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border: 1px solid var(--bright-purple);
+      border-radius: 50%;
+      top: -5px;
+      left: -5px;
+    }
+
+    &_active {
+      &::before {
+        display: block;
+      }
+    }
+  }
+}

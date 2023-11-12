@@ -1,0 +1,75 @@
+.toggle {
+  display: flex;
+  border-radius: 12px;
+  padding: 8px;
+
+  &_light {
+    border: 1px solid var(--bright-purple);
+    //TODO: переписати стилі тем тут
+  }
+
+  &_dark {
+    border: 1px solid #885aff;
+  }
+
+  .btn_wrapper {
+    position: relative;
+    z-index: 1;
+  }
+
+  .activeBg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+
+    &_light {
+      background: var(--lavander);
+    }
+
+    &_dark {
+      background: #4421A0;
+    }
+  }
+
+  .en {
+    transform: translateX(0%);
+  }
+
+  .ua {
+    transform: translateX(100%);
+  }
+
+  &_button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0 8px;
+    z-index: 2;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+
+    &_light {
+      color: var(--bright-purple);
+
+      &_active {
+        color: var(--white);
+      }
+    }
+
+    &_dark {
+      color: #885aff;
+
+      &.active {
+        color: #a27eff;
+      }
+    }
+  }
+
+
+}

@@ -1,0 +1,31 @@
+.input {
+  position: relative;
+  width: 440px;
+  height: 100%;
+  padding: 12px 24px 12px 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 2px solid #ECE7F2;
+  outline: none;
+  transition: 0.3s;
+  color: var(--purple-gray);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+
+  &::placeholder {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #CDC1DC;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+
+  &:focus {
+    //outline: noe;
+  }
+}

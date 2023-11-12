@@ -1,0 +1,380 @@
+$minus-margin: calc(1240px - 100wv);
+
+.presentations {
+  //max-width: 1440px;
+  //margin: 0 max(-100px, calc(1240px - 100vw));
+  //margin-left: clamp(0px, calc(((100vw - 1240px) / 2) * -1), -100px);
+  margin-right: calc(max(((100vw - 1240px) / 2) * -1, -100px));
+  margin-left: calc(max(((100vw - 1240px) / 2) * -1, -100px));
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.photo {
+  padding-bottom: 80px;
+}
+
+.photo_title {
+  width: 314px;
+  height: 38px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.photo2 {
+  padding-top: 80px;
+  background-color: #f5f5f7;
+  margin-bottom: 80px;
+}
+
+.photo2_title {
+  width: 380px;
+  height: 144px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.2;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.photo_iphone {
+  width: 652px;
+  height: 804px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo2_iphone {
+  width: 808px;
+  height: 820px;
+  border-top-left-radius: 23%;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+.photo2_iphone > img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.photo3_wrapper {
+  padding-bottom: 40px;
+}
+
+.photo3_wrapper2 {
+  width: 1440px;
+  height: 940px;
+  padding-top: 80px;
+  background-color: #f5f5f7;
+}
+
+.photo3_title {
+  width: 720px;
+  height: 144px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.2;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo3_iphone {
+  width: 728px;
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f5f5f7;
+}
+
+.photo4 {
+  width: 1440px;
+  height: 1128px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.photo4_title {
+  width: 409px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.2;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.photo4_text {
+  text-align: center;
+  width: 890px;
+  height: 80px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.25;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo4_wrapper {
+  margin-bottom: 40px;
+}
+
+.photo4_iphone {
+  width: 864px;
+  height: 864px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo4_wrapper2 {
+  width: 1440px;
+  height: 940px;
+  padding-top: 76px;
+  background-color: #f5f5f7;
+}
+
+.photo5 {
+  display: flex;
+  width: 1440px;
+  height: 1269px;
+
+  margin-bottom: 80px;
+}
+
+.photo5_left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 728px;
+  height: 1269px;
+  margin-right: 20px;
+}
+
+.photo5_right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 692px;
+  height: 1269px;
+}
+
+.photo5_title {
+  width: 422px;
+  height: 120px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.25;
+  text-align: center;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+
+.photo5_title2 {
+  width: 448px;
+  height: 80px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.25;
+  text-align: center;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+
+.photo53_title {
+  width: 259px;
+  height: 120px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.25;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.photo54_title {
+  color: #f5f5f7;
+  width: 413px;
+  height: 120px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.25;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo55_title {
+  width: 431px;
+  height: 80px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.25;
+  margin-bottom: 40px;
+}
+
+.photo54_bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 492px;
+  height: 539px;
+  padding-bottom: 40px;
+  background-image: url('../../../../assets/iphone/green-landscape.jpg');
+}
+
+.photo55_card3 {
+  width: 492px;
+  height: 1169px;
+  padding-left: 30px;
+  padding-right: 30px;
+  overflow: hidden;
+}
+
+.photo5_wrapper {
+  background-color: #f5f5f7;
+  padding-top: 80px;
+  padding-right: 80px;
+}
+
+.photo53_wrapper {
+  display: flex;
+  width: 692px;
+  height: 310px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 40px;
+  background-color: #f5f5f7;
+}
+
+.photo54_wrapper {
+  width: 692px;
+  height: 539px;
+  background-color: #f5f5f7;
+}
+
+.photo55_wrapper {
+  width: 692px;
+  height: 380px;
+  background-color: #f5f5f7;
+  padding-top: 80px;
+}
+
+.photo55_phone {
+  width: 356px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  overflow: hidden;
+}
+
+.photo55_phone > img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.photo5_gradient {
+  display: block;
+  width: 422px;
+  height: 40px;
+  background-image: linear-gradient(#fd9df9, #4f15a1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.photo53_gradient {
+  display: block;
+  width: 258px;
+  height: 40px;
+  background-image: linear-gradient(#fd9df9, #4f15a1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.photo55_gradient {
+  display: block;
+  width: 431px;
+  height: 40px;
+  text-align: center;
+  background-image: linear-gradient(#fd9df9, #4f15a1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.photo5_card1 {
+  width: 448px;
+  height: 600px;
+  margin-left: auto;
+}
+
+.photo5_card2 {
+  width: 448px;
+  height: 489px;
+  margin-left: auto;
+}
+
+.photo6 {
+  width: 1440px;
+  height: 894px;
+  background-color: #f5f5f7;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+.photo6_title {
+  width: 328px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.2;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.photo6_wrapper2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo62_iphone {
+  margin-top: auto;
+  text-align: center;
+}
+
+.photo6_name {
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.photo_wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  height: 804px;
+  width: 652px;
+
+  /* background-image: url('../../assets/photo/back-frontfullphone.jpg'); */
+}
+
+.photo_wrapper {
+  margin-bottom: 50px;
+}
+
+.photo_title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.photo_details {
+  text-align: center;
+}

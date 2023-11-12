@@ -1,0 +1,32 @@
+export const specifications = [
+	{
+		label: 'Main',
+		data: [
+			{
+				name: 'Series',
+				value: 'Iphone 14 Pro',
+			},
+			{
+				name: 'Graduation Year',
+				value: 2022,
+			},
+			{
+				name: 'color',
+				value: 'Deep Purple',
+			},
+		],
+	},
+	{
+		label: 'Memory',
+		data: [
+			{
+				name: 'Internal Memory',
+				value: '512 GB',
+			},
+			{
+				name: 'RAM',
+				value: '6 GB',
+			},
+		],
+	},
+];

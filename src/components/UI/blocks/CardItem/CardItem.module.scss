@@ -1,0 +1,152 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  //align-items.js: center;
+  border-radius: 12px;
+  border: 1px solid var(--light-gray);
+  background: var(--white);
+  padding: 20px;
+  max-width: 240px;
+
+
+  .content {
+    position: relative;
+  }
+
+  .btn_group {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 8px;
+  }
+
+  .image_block {
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+  }
+
+  .colors {
+    display: flex;
+    justify-content: center;
+    margin: 12px 0;
+
+    .color {
+      position: relative;
+      margin: 0 6px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      cursor: pointer;
+
+      &::before {
+        content: '';
+        display: none;
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        border: 1px solid var(--bright-purple);
+        border-radius: 50%;
+        top: -2px;
+        left: -2px;
+      }
+
+      &_active {
+        &::before {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .name {
+    max-width: 200px;
+    color: var(--color-black);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 6px;
+  }
+
+  .reviews {
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin: 2px;
+    }
+
+    .star_disabled * {
+      fill: var(--gray);
+    }
+
+    .review {
+      color: var(--purple-gray);
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
+      margin-left: 8px;
+    }
+  }
+
+  .buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 36px;
+
+    .price {
+      position: relative;
+
+      &_value {
+        color: var(--black);
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+      }
+
+      &_old {
+        position: absolute;
+        top: 0;
+        margin-top: -20px;
+        left: 0;
+        margin-right: -50%;
+        color: var(--purple-gray);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-decoration: line-through;
+      }
+
+      &_discount {
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        margin-right: -50%;
+        margin-left: 10px;
+        transform: translateY(-50%);
+
+        &_value {
+          padding: 4px 8px;
+          background: var(--exotic-pink);
+          color: var(--white);
+          border-radius: 8px;
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 18px;
+          min-width: 48px;
+          text-align: center;
+        }
+      }
+
+    }
+
+    .cart {
+      width: 36px;
+      height: 36px;
+    }
+
+  }
+}

@@ -1,0 +1,14 @@
+.main {
+  position: relative;
+
+  .icon {
+    position: absolute;
+    left: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    * {
+      fill: var(--purple-gray);
+    }
+  }
+}

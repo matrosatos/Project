@@ -1,0 +1,29 @@
+//body {
+//  font-family: Inter, sans-serif;
+//}
+
+* {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1270px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 100%;
+}
+
+//Swiper styles
+.swiper-slide-thumb-active {
+  border: 1px solid var(--bright-purple) !important;
+}
+
+.swiper-scrollbar-drag {
+  background-color: var(--bright-purple) !important;
+}
+
+.swiper-scrollbar-horizontal {
+  height: 1px !important;
+}

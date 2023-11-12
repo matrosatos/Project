@@ -1,0 +1,42 @@
+.main {
+  //padding-bottom: 24px;
+  .wrapper {
+    padding-bottom: 100px;
+  }
+
+  .name_rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .title {
+    color: var(--black);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+
+  .stars {
+    display: flex;
+    align-items: center;
+
+    &_count {
+      margin-left: 8px;
+      color: var(--bright-purple);
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 24px;
+    }
+
+    svg {
+      //margin: 2px;
+      padding: 2px;
+    }
+
+    .star_disabled * {
+      fill: var(--gray);
+    }
+  }
+}
